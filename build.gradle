@@ -1,0 +1,13 @@
+
+plugins {
+    id 'java' // <1>
+}
+
+repositories {
+    mavenCentral() // <2>
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    testImplementation group: 'com.h2database', name: 'h2', version: '2.1.210'
+}
