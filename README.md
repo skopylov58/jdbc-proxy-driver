@@ -1,7 +1,4 @@
-# jdbc-proxy-driver
-JDBC proxying driver (JDBCMiddleMan)
-
-## JDBC proxy driver (JDBCMiddleman)
+## JDBC proxying driver (JDBCMiddleman)
 
 ### What for?
 
@@ -47,7 +44,7 @@ John 40
 ```
 
 You may create your own interceptor by implementing 
-[jdbc.Interceptor](jdbc/src/main/java/com/github/skopylov58/jdbc/Interceptor.java) interface.
+[jdbc.Interceptor](src/main/java/com/github/skopylov58/jdbc/Interceptor.java) interface.
 To bring your interceptor into action, please:
 
 - put your's interceptor into application class-path 
