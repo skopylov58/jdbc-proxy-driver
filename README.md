@@ -1,3 +1,5 @@
+![example workflow](https://github.com/skopylov58/jdbc-proxy-driver/actions/workflows/gradle.yml/badge.svg)
+
 ## JDBC proxying driver (JDBCMiddleman)
 
 ### What for?
